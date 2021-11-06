@@ -124,8 +124,7 @@ public class Menu {
 			System.out.println("Invalid input");
 			return ;
 		}
-		System.out.println("Travel tour journey: " + travelTours[choice].getRoute() + " ("
-				+ travelTours[choice].getDuration() + " days days)");
+		System.out.println("Travel tour journey: " + travelTours[choice].getRoute() + " ("+ travelTours[choice].getDuration() + " days days)");
 		if (travelTours[choice].isStart()) {
 			System.out.println("This travel tour has begun");
 		}else {
